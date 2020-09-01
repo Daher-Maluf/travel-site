@@ -7,3 +7,14 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* the asteric * means that you whant to select every element on the page.
+ box-sizing: border-box changes the way browser calulates width. that allows not to pass the 100% avalible width. */
+
+* {
+ box-sizing: border-box;
+}
+
+a {
+  color: $mainOrange;
+}
